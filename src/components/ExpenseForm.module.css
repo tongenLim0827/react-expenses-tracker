@@ -1,0 +1,70 @@
+.ExpenseForm {
+    background-color: rgb(255, 255, 255);
+}
+
+.ExpenseForm label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.ExpenseForm input, .ExpenseForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.ExpenseForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ExpenseForm .form-group {
+    margin-bottom: 20px;
+}
+
+.BtnContainer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    gap: 10px
+}
+
+.ExpenseBtn {
+    background-color: rgb(80, 167, 103);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-size: 16px;
+    border: black;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ExpenseBtn:hover {
+    background-color: rgb(80, 145, 66);
+    color: rgb(255, 255, 255);
+}
+
+.CancelBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CancelBtn:hover {
+    background-color: rgb(213, 212, 211);
+    color: rgb(255, 255, 255);
+}

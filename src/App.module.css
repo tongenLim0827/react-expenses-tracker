@@ -1,0 +1,131 @@
+.App {
+  max-width: 100%;
+  /* padding: 20px 10px 50px; */
+  /* background: linear-gradient(180deg, #fbf7e3, rgb(187, 201, 251)); */
+  background: linear-gradient(120deg, #a2c2e1, #f4e0f1, #fcc5db);
+  /* background-color: rgb(249, 243, 213); */
+  min-height: 100vh; /* set height to fill the viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.AppHeader {
+  font-size: 50px;
+  text-align: left;
+  font-family: Georgia;
+  color: rgb(30, 35, 122);
+  /* background-color: #fafafa; */
+  width: 100%;
+  /* padding: 10px 10px 10px 80px; */
+  padding-left: 80px;
+  padding-bottom: 20px;
+  justify-content: center;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin: 0;
+  width: 90%;
+  /* background-color: rgb(250, 250, 250); */
+}
+
+.Container2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 0;
+  width: 90%;
+  /* height: 100%; */
+  min-height: 100vh;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+.ExpenseDetail {
+  text-align: center;
+  /* background-color: rgb(48, 158, 12); */
+}
+
+.Spending {
+  font-weight: 500;
+}
+
+.AddExpBtn  {
+  background-color: rgb(25, 30, 128);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: black;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* to change button appearance when hover over it */
+.AddExpBtn:hover {
+  background-color: rgb(59, 21, 89);
+  color: rgb(255, 255, 255);
+}
+
+.AddBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: rgb(130, 45, 45); */
+  padding: 10px;
+  width: 90%;
+}
+
+.ModalOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.ModalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.BtnContainer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  gap: 10px
+}
+
+.GeneralBtn {
+  background-color: rgb(170, 168, 166);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: black;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.GeneralBtn:hover {
+  background-color: rgb(115, 114, 113);
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,109 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 120px; */
+    margin: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.TableStyle {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 10px; */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+  
+.TableStyle thead, .TableStyle th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(25, 30, 128);
+    color: rgb(255, 255, 255);
+    width: 20%;
+    cursor: pointer;
+}
+  
+.TableStyle td {
+    border: 2px solid #ddd;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.TableStyle span {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.BtnContainer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    gap: 10px
+}
+  
+.ViewBtn {
+    background-color: rgb(237, 179, 132);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-size: 16px;
+    border: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.DeleteBtn {
+    background-color: rgb(218, 77, 103);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CategoryFood {
+    color: rgb(255, 77, 0);
+    font-weight: bold;
+}
+  
+.CategoryTransport {
+    color: rgb(56, 56, 191);
+    font-weight: bold;
+}
+  
+.CategoryEntertainment {
+    color: rgb(238, 130, 238);
+    font-weight: bold;
+}
+
+.CategoryGrocery {
+    color: rgb(154, 205, 50);
+    font-weight: bold;
+}
+
+.CategoryUtilities {
+    color: rgb(205, 50, 89);
+    font-weight: bold;
+}
+  
+.CategoryOthers {
+    color: rgb(59, 139, 159);
+    font-weight: bold;
+}
+
+/* .SortIcon {
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 13px;
+} */
